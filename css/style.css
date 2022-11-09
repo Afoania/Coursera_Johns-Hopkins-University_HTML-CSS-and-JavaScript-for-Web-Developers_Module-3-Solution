@@ -1,0 +1,90 @@
+body {
+    background-color: indigo;
+}
+
+#header-nav {
+    background-color: rgb(254, 255, 210);
+}
+
+.head {
+    color: indigo;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.li1 {
+    list-style: none;
+}
+
+.nav-link {
+    color: indigo;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button1 {
+    color: indigo;
+}
+
+.h2 {
+    color: rgb(254, 255, 210);
+    margin-top: 50px;
+}
+
+.sec1 {
+    background-color: rgb(254, 255, 210);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2 {
+    position: relative;
+    background-color: black;
+    color: rgb(254, 255, 210);
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.p1 {
+    margin-top: 12px;
+}
+
+.p2 {
+    text-align: justify;
+    margin: 10px 30px 10px;
+}
+
+@media (min-width: 992px) {
+    .button1 {
+        visibility: hidden;
+    }
+
+    .nav-item {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 768px) AND (max-width: 991px) {
+    .button1 {
+        visibility: hidden;
+    }
+
+    .nav-item {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .button1 {
+        visibility: visible;
+    }
+}
